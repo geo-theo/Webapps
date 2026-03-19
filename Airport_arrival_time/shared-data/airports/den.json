@@ -1,0 +1,49 @@
+{
+  "code": "DEN",
+  "name": "Denver International Airport",
+  "city": "Denver",
+  "timezone": "America/Denver",
+  "coordinates": {
+    "lat": 39.8561,
+    "lng": -104.6737
+  },
+  "gate_close_minutes_before_departure": 15,
+  "security_minutes": {
+    "domestic": 18,
+    "international": 28
+  },
+  "check_in_minutes": {
+    "no_bag": 0,
+    "checked_bag": 15
+  },
+  "parking_options": {
+    "curbside": {
+      "label": "Drop-off / Rideshare curbside",
+      "minutes_to_security": 12
+    },
+    "garage": {
+      "label": "Garage parking",
+      "minutes_to_security": 20
+    },
+    "economy": {
+      "label": "Economy parking + shuttle",
+      "minutes_to_security": 32
+    },
+    "transit_station": {
+      "label": "A-Line / Transit station",
+      "minutes_to_security": 9
+    }
+  },
+  "terminal_to_gate_minutes": {
+    "A": 8,
+    "B": 14,
+    "C": 16,
+    "unknown": 14
+  },
+  "risk_tiers": {
+    "tight": 0,
+    "balanced": 15,
+    "safe": 30
+  }
+}
+
