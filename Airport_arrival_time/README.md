@@ -58,4 +58,3 @@ If PowerShell blocks scripts, use `Activate.bat` from `cmd` or temporarily adjus
 - The current manual address flow uses a small built-in geocoder for common Denver-area origins plus a fallback approximation.
 - Route times are heuristic and intended for MVP validation, not production.
 - The architecture is set up so routing, geocoding, and flight-status providers can be swapped in later.
-
